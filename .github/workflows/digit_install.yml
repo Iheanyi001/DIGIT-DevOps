@@ -39,7 +39,7 @@ jobs:
       AWS_REGION:  ${{ secrets.AWS_REGION }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Build project
         run: echo "Githubactions Workflow has started"
       - name: Displaying the input parameters provided
